@@ -425,6 +425,15 @@ def num_reason_calculator(language, for_moves, against_moves):
     result['against'] = dct_num_reason_against
     return result
 
+def safe_divide_for_display(a, b):
+    if b == 0:
+        if a == 0:
+            return 'Undefined'
+        else:
+            return 'Infinity'
+    else:
+        return a / b
+
 def reason_ratio_calculator(language, for_moves, against_moves):
     num_reason_for = [0]*len(language)
     num_reason_against = [0]*len(language)
