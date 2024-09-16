@@ -1,0 +1,6 @@
+seed,cl_num_for,cl_num_agn,cr_num_for,cr_num_agn,common_ground_for,common_ground_agn,verdict
+0,103,122,105,94,55,50,sustain
+1,96,110,96,111,47,61,fail
+2,113,116,111,116,56,57,sustain
+3,95,104,94,105,41,55,fail
+4,96,124,101,119,47,61,fail
